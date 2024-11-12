@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "my-pandasai"
+version = "0.1.0"
+description = ""
+authors = ["Aslin R <aslinjoelr123@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandasai = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
